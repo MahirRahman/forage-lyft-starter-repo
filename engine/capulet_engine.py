@@ -1,8 +1,7 @@
-from abc import ABC
 from engine.engine import Engine
 
 
-class CapuletEngine(Engine, ABC):
+class CapuletEngine(Engine):
     def __init__(self, last_service_mileage, current_mileage):
         # super.__init__()
         self.last_service_mileage = last_service_mileage

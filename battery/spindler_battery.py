@@ -1,8 +1,7 @@
-from abc import ABC
 from battery.battery import Battery
 
 
-class SpindlerBattery(Battery, ABC):
+class SpindlerBattery(Battery):
     def __init__(self, current_date, last_service_date):
         # super.__init__()
         self.last_service_date = last_service_date

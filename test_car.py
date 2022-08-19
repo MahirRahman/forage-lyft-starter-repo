@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-from carfactory.car import CarFactory
+from car_factory import CarFactory
 # from engine.model.calliope import Calliope
 # from engine.model.glissade import Glissade
 # from engine.model.palindrome import Palindrome
